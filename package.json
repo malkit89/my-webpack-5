@@ -11,8 +11,7 @@
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
     "lint": "eslint . src config || true"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "devDependencies": {
     "@babel/core": "^7.12.1",
     "@babel/plugin-proposal-class-properties": "^7.12.1",

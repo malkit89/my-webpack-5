@@ -17,5 +17,5 @@ heading.textContent = example()
 const app = document.querySelector('#root')
 app.append(logo, heading)
 
-//Variabile globale compilata da webpack
+//  Variabile globale compilata da webpack
 console.log(TWO)
