@@ -1,0 +1,1 @@
+File statico verrà copiato nella cartella assests dopo il build

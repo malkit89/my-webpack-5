@@ -4,7 +4,7 @@ import App from './App.vue'
 import { example } from './js/example'
 
 // Test import of an asset
-import webpackLogo from './images/webpack-logo.svg'
+import webpackLogo from './assets/webpack-logo.svg'
 
 // Test import of styles
 import './styles/index.scss'
@@ -16,12 +16,13 @@ logo.src = webpackLogo
 const heading = document.createElement('h1')
 heading.textContent = example()
 
-// const app = document.querySelector('#app')
-// app.append(logo, heading)
+const app = document.querySelector('#root')
+app.append(logo, heading)
 
 //  Variabile globale compilata da webpack
 console.log(TWO)
 
+//  load vue app
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
