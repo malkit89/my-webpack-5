@@ -9,7 +9,7 @@ const paths = require('./paths')
 const { VueLoaderPlugin } = require("vue-loader")
 module.exports = {
     // Where webpack looks to start building the bundle
-    entry: [paths.src + '/index.js'],
+    entry: [paths.src + '/main.js'],
 
     // Where webpack outputs the assets and bundles
     output: {

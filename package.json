@@ -1,8 +1,7 @@
 {
   "name": "webpack-boilerplate",
   "version": "1.0.0",
-  "description": "Progetto configurato con webpack 5, images, fonts e scss.",
-  "main": "index.js",
+  "description": "Progetto configurato con webpack 5 per Vue-js, loaders: images, fonts e scss",
   "private": "true",
   "author": "Malkit Sandhu",
   "license": "MIT",
@@ -13,8 +12,11 @@
   },
   "keywords": [],
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.8.3",
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.1",
